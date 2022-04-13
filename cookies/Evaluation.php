@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Evaluation</title>
-    <link rel="stylesheet" href="https://gharbiyasmine.github.io/Atelier-PHP/bootstrap.css">
+    <link rel="stylesheet" href="https://github.com/Mouhib91/atelier-PHP/blob/main/bootstrap.css">
 
 
 </head>
 <body>
-<form action="eval-process.php" method="post">
+<form action="Eval_process.php" method="post">
     <h3 style="text-align:center;color: #4986c1;">Evaluer le contenue du cours PHP : </h3>
     <br>
     <div class="container">
