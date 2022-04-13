@@ -12,7 +12,7 @@ if (isset($_POST['trash'])){
 <head>
     <meta charset="UTF-8">
     <title>My Notes</title>
-    <link rel="stylesheet" href="https://gharbiyasmine.github.io/Atelier-PHP/bootstrap.css">
+    <link rel="stylesheet" href="https://github.com/Mouhib91/atelier-PHP/blob/main/bootstrap.csss">
 
     <script src="https://kit.fontawesome.com/ce61b18206.js" crossorigin="anonymous"></script>
 </head>
