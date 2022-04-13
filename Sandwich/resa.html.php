@@ -1,0 +1,42 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Livraison de Sandwitchs</title>
+    <link rel="stylesheet" href="https://gharbiyasmine.github.io/Atelier-PHP/bootstrap.css">
+</head>
+<body>
+<form action="recap.php" method="post"  enctype="multipart/form-data">
+    <h2 style="text-align:center; color: #4986c1">Livraison de Sandwitchs</h2>
+    <div class="container">
+
+        Name: <input type="text" class=" form-control" name="name" required>
+        <br>
+        Last Name: <input type="text" class="form-control" name="lastName" required>
+
+        <br>
+
+        Num of Sandwichs:<input type="number" max="30" class=" form-control" name="num" required>
+        <br>
+        Type:<select class="form-control " name="type" required>
+            <option value="viande" class="form-control">viande</option>
+            <option value="poulet" class="form-control">poulet</option>
+            <option value="escalope" class="form-control">escalope</option>
+        </select>
+
+        <br>
+        <div class="row">
+            Harissa:<input type="checkbox" class="col " value="harissa" name="include[]">
+            Salad:<input type="checkbox" class="col " value="salad" name="include[]">
+            Mayo:<input type="checkbox" class="col " value="mayo" name="include[]">
+        </div>
+        <br>
+        <div class="form-group">
+            CIN : <input type="file" class="form-control-file" id="exampleFormControlFile1" name="fichier">
+        </div>
+        <br>
+        <input type="submit" class="btn btn-primary">
+    </div>
+</form>
+</body>
+</html>
