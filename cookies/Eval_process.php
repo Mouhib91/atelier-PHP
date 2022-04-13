@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Evaluation</title>
-    <link rel="stylesheet" href="https://gharbiyasmine.github.io/Atelier-PHP/bootstrap.css">
+    <link rel="stylesheet" href="https://github.com/Mouhib91/atelier-PHP/blob/main/bootstrap.csss">
     <script src="https://kit.fontawesome.com/ce61b18206.js" crossorigin="anonymous"></script>
 
 </head>
@@ -19,7 +19,7 @@ if (isset($_POST['submit']))
 }
 else {
 
-    <div class="alert alert-warning" role="alert"> <?='answer alreadysubmitted '.$_POST['user'].' : '.$_COOKIE[$_POST['user']]?></div>
+    <div class="alert alert-warning" role="alert"> <?='answer already submitted '.$_POST['user'].' : '.$_COOKIE[$_POST['user']]?></div>
     <?php
 }
 }
