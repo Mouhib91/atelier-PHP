@@ -11,7 +11,7 @@ if (isset($_POST['submit']) ){
 <head>
     <meta charset="UTF-8">
     <title>Note</title>
-    <link rel="stylesheet" href="https://gharbiyasmine.github.io/Atelier-PHP/bootstrap.css">
+    <link rel="stylesheet" href="https://github.com/Mouhib91/atelier-PHP/blob/main/bootstrap.css">
 
     <script src="https://kit.fontawesome.com/ce61b18206.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
